@@ -1,12 +1,22 @@
 {
   "tests": [
     {
-      "name": "sample test",
+      "name": "sample test 1",
       "setup": "gcc quiz2.c",
-      "run": "./a.out \"Hello\" \"World\" 5 5",
+      "run": "./a.out \"cba\" \"abcd\" 3 4",
       "input": "",
-      "output": "Hello World",
+      "output": "1",
       "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "sample test 2",
+      "setup": "gcc quiz2.c",
+      "run": "./a.out \"cab\" \"abcd\" 3 4",
+      "input": "",
+      "output": "0",
+      "comparison": "included",
       "timeout": 10,
       "points": null
     }
