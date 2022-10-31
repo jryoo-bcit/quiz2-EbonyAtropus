@@ -3,7 +3,7 @@
     {
       "name": "sample test",
       "setup": "gcc quiz2.c",
-      "run": "./a.out \"Hello World\"",
+      "run": "./a.out \"Hello\" \"World\" 5 5",
       "input": "",
       "output": "Hello World",
       "comparison": "exact",
