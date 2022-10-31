@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 
+void revSubstring (string rev1, string str1, int substrLen, string strLen) {
+    rev1 =
+}
+
 int main(int argc, char **argv) {
   char *str1 = (char *)malloc(sizeof(char*) * strlen(argv[1]));
   char *str2 = (char *)malloc(sizeof(char*) * strlen(argv[2]));
@@ -15,8 +19,8 @@ int main(int argc, char **argv) {
     str2[j] = argv[2][j];
   }
 
-  printf("%s ", str1);
-  printf("%s", str2);
+  printf("%d ", str1);
+  printf("%d", str2);
   
   free(str1);
   free(str2);
