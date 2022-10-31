@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "sample test",
+      "setup": "gcc quiz2.c",
+      "run": "./a.out \"Hello World\"",
+      "input": "",
+      "output": "Hello World",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
